@@ -3,6 +3,7 @@ public class main {
         int i = 40;
 
         int foll = next(i);
+        //testing
         int prev = before(i);
 
         System.out.println("Before " + i + " is " + prev + ". After is " + foll + ".");
