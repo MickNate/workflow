@@ -12,7 +12,7 @@ RUN mvn clean package -DskipTests
 
 # STAGE 2: Create the final runtime image
 # Use a slim JRE image to reduce the final image size
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk-focal
 WORKDIR /app
 
 # Copy only the built JAR file from the 'build' stage
