@@ -29,7 +29,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>src/main/java/main</mainClass>
+                            <mainClass>main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
