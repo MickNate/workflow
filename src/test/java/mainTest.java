@@ -1,16 +1,16 @@
-import org.junit.jupiter.api.Test;
+import org.junit.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class mainTest {
+public class mainTest {
 
     @Test
-    void next() {
+    public void next() {
         assertEquals(41,main.next(40));
     }
 
     @Test
-    void before() {
+    public void before() {
         assertEquals(39,main.before(40));
     }
 }
