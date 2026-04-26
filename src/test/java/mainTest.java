@@ -13,4 +13,5 @@ public class mainTest {
     public void before() {
         assertEquals(39,main.before(40));
     }
+
 }
